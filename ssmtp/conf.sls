@@ -5,7 +5,7 @@
       - salt://ssmtp/templates/conf.jinja
     - user: root
     - group: mail
-    - mode: 640
+    - mode: 644
     - template: jinja
     - require:
       - pkg: ssmtp
