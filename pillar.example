@@ -1,0 +1,12 @@
+# Values in this example are defaults
+ssmtp:
+  smtp_server: yourserver:587
+  user: yourname
+  password: yourpassword
+  # optionally change value below
+  # auth_method: LOGIN
+  # root: root@localhost
+  # hostname: localhost
+  # from_override: Yes
+  # start_tls: Yes
+  # tls: Yes

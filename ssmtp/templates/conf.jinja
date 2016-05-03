@@ -1,0 +1,11 @@
+# Managed by SaltStack
+
+root={{ salt['pillar.get']('ssmtp:root', 'root@localhost') }}
+AuthMethod={{ salt['pillar.get']('ssmtp:auth_method', 'LOGIN') }}
+FromLineOverride={{ salt['pillar.get']('ssmtp:from_override', 'Yes') }}
+UseTLS={{ salt['pillar.get']('ssmtp:tls', 'Yes') }}
+UseSTARTTLS={{ salt['pillar.get']('ssmtp:start_tls', 'Yes') }}
+hostname={{ salt['pillar.get']('ssmtp:hostname', 'localhost') }}
+mailhub={{ salt['pillar.get']('ssmtp:smtp_server', '') }}
+AuthUser={{ salt['pillar.get']('ssmtp:user', '') }}
+AuthPass={{ salt['pillar.get']('ssmtp:password', '') }}

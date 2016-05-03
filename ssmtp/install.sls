@@ -1,0 +1,2 @@
+ssmtp:
+  pkg.installed
