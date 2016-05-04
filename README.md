@@ -1,5 +1,7 @@
 # Enrise sSMTP Formula
 
+[![Travis branch](https://img.shields.io/travis/Enrise/ssmtp-formula/master.svg?style=flat-square)](https://travis-ci.org/Enrise/ssmtp-formula)
+
 This Saltstack formula installs and configures sSTMP for you.
 
 sSMTP is a Sendmail compatible, SMTP relay only solution.
